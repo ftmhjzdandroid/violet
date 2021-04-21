@@ -1,0 +1,297 @@
+@font-face{
+    font-family: 'isans';
+    src: url('../fonts/IRANSans.ttf') format('truetype');
+}
+body{
+    text-align: right !important;
+    direction: rtl !important;
+    position: relative;
+    font: 0.800rem isans !important;
+}
+a{
+    text-decoration: none;
+}
+    .containeer{
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+        /* ------------------------------------------------------------------------------------------------------------------------------
+                                                header style
+    ------------------------------------------------------------------------------------------------------------------------------ */
+    header{
+        width: 100%;
+        background-image: linear-gradient(to  right, rgb(121, 145, 223), rgb(138, 55, 177));
+        color: rgb(233, 214, 233);
+        padding-bottom: 30px;
+        position: relative;
+        z-index: 1;
+    }
+    .head-title{
+        border-bottom: 1px solid rgb(206, 144, 206);
+        padding: 8px;
+    }
+    .head-title a{
+        margin-bottom: 0;
+    }
+    .head-title i{
+        font-size: 18px;
+        color:rgb(228, 199, 228); 
+    }
+    .head-title h6{
+        font-size: 12px;
+        margin-bottom: 0;
+        margin-right: 5px;
+    }
+    .navbar-toggler{
+        background-image: linear-gradient(to  right, rgb(219, 154, 208), rgb(138, 55, 177));
+    }
+   
+    .navbar-toggler:focus{
+        outline: none;
+    }
+    .orange-btn{
+        padding: 3px 40px;
+        background-color: rgb(216, 83, 150);
+        color: #fff;
+        font: 12px isans;
+        box-shadow: 0 0 5px 1px rgb(216, 137, 137);
+        margin-left: 8px;
+        
+    }
+    .orange-btn:hover{
+        color: #fff;
+        box-shadow: 0 0 5px 1px rgb(192, 176, 176);
+    }
+    header a{
+        color: rgb(233, 214, 233);
+        padding: 0 20px;
+        margin-bottom: 12px;
+        font-weight: 600;
+       
+    }
+    header a:hover{
+        color: rgb(233, 214, 233);
+        text-decoration: none;
+        
+    }
+    .p-a{
+        color:rgb(216, 83, 150) ;
+    }
+    .p-a:hover{
+        color:rgb(216, 83, 150) ;
+    }
+    @media(max-width: 768px){
+        .navbar-collapse{
+            background-image: linear-gradient(to  bottom, rgb(25, 89, 119), rgb(138, 55, 177));
+        }
+    }
+    .navbar-collapse img{
+        width: 35px;
+        margin-left: 8px;
+    }
+    .navbar-collapse h6{
+        margin-bottom: 0;
+        font: 13px isans;
+    }
+    .header-img{
+        width: 290px;
+    }
+    h2{
+        font-size: 19px;
+        font-weight: 600;
+    }
+    .header-list li{
+        font-size: 11px;
+    }
+    .search-div{
+        width: 55%;
+        height: 65px;
+        border-radius: 64px;
+        box-shadow: 0 4px 5px 1px rgb(214, 214, 214);
+        margin-top: -38;
+        z-index: 4;
+        background-color: #fff;
+    }
+    .search-div input[type=text]{
+        border: none;
+        width: 70%;
+        border-bottom: 1.5px solid rgb(224, 224, 224);
+        padding: 5px 10px;
+        margin:15px 20px 15px 0;
+    }
+    .search-div input[type=text]:focus{
+        outline: none;
+    }
+    .search-div .btn{
+        color: rgb(239, 217, 240);
+        font: 12px isans;
+        background-image: linear-gradient(to  right, rgb(121, 145, 223), rgb(138, 55, 177));
+        border-radius: 30px;
+        padding: 4px 25px;
+        margin-top: 8px;
+        margin-right: 20px;
+        
+    }
+    .search-div .btn:hover{
+        background-image: linear-gradient(to  right, rgb(89, 143, 168), rgb(173, 135, 190));
+    }
+    @media(max-width: 768px){
+        .search-div{
+            width: 98%;
+        }
+        .search-div .btn{
+            padding: 3px 8px;
+            margin-right: 8px;
+        }
+    }
+    /* ------------------------------------------------------------------------------------------------------------------------------
+                                                main style
+    ------------------------------------------------------------------------------------------------------------------------------ */
+    .questions h5{
+        font-size: 16px ;
+        font-weight: 600;
+        color:rgb(216, 83, 150) ;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .questions h1{
+        text-align: center;
+        color: rgb(36, 102, 133);
+        font-weight: 600;
+        font-size: 23px;
+    }
+    .questions a{
+        width: 230px;
+        padding: 4px 10px;
+        box-shadow: 0 2px 10px #ddd;
+        margin-left: 15px;
+        border-radius: 20px;
+        color: rgb(112, 112, 112);
+        text-decoration: none;
+        text-align: center;
+    }
+    .questions a:hover{
+        box-shadow: 0px 3px 5px 3px rgba(0,0,0,0.10);
+    }
+    .questions a.active{
+        background-image: linear-gradient(to  right, rgb(121, 145, 223), rgb(138, 55, 177));
+        color: #fff;
+    }
+    .questions a.active:hover{
+        background-image: linear-gradient(to  bottom, rgb(89, 143, 168), rgb(173, 135, 190));
+    }
+    .brows{
+        width: 100%;
+        height: 300px;
+        margin-top: 70px;
+        background-image: linear-gradient(to  right, rgb(138, 55, 177), rgb(121, 145, 223));
+        z-index: 1;
+    }
+    .brows h6{
+        color:rgb(216, 83, 150) ;
+        font-weight: 600;
+        padding-top: 50px;
+    }
+    .brows h2{
+        color: rgb(233, 214, 233);
+    }
+    .categorys{
+        
+        z-index: 2;
+        margin-top: -120;
+    }
+    .categorys .cat1{
+        width: 200px;
+        background-color: #fff;
+        box-shadow: 0 0 10px 0 #ddd;
+        padding: 15px 50px;
+        border-radius: 3px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .categorys img{
+        width: 65px;
+        padding: 10px;
+        border: 1px solid #eee;
+    }
+    .categorys p{
+        color: rgb(100, 100, 100);
+        font: 12px isans;
+    }
+    .categorys h6{
+        margin-top: 8px;
+        font-weight: 500;
+        color: blueviolet;
+    }
+    .categorys h3{
+        font-size: 12px;
+    }
+    .categorys b{
+        color: rgb(94, 94, 94);
+    }
+    .categorys .cat1.active{
+        background-image: linear-gradient(to  bottom, rgb(138, 55, 177), rgb(121, 145, 223));
+    }
+    .categorys .cat1.active h6{
+      color: rgb(247, 205, 212);  
+    }
+    .cat1.active h3 b{
+        color:rgb(216, 83, 150) ;
+    }
+    .cat1.active p{
+        color: #fff;
+    }
+    .looking{
+        width: 100%;  
+        margin-top: 80px;    
+    }
+    .looking h6{
+        color:rgb(216, 83, 150) ;
+        
+    }
+    .looking h4{
+        font-size: 18px;
+        color: rgb(129, 100, 156);
+        font-weight: 600;
+    }
+    .looking p{
+        color: rgb(129, 100, 156);
+        font: 12px isans;
+    }
+    .looking a{
+        background-image: linear-gradient(to  right, rgb(121, 145, 223), rgb(138, 55, 177));
+        margin-left: 10px;
+        border-radius: 5px;
+        width: 100px;
+        padding: 4px 15px;
+        color: rgb(247, 205, 212);  
+        text-decoration: none;
+        margin-top: 20px;
+    }
+    .looking a:hover{
+        background-image: linear-gradient(to  bottom, rgb(89, 143, 168), rgb(173, 135, 190));
+    }
+    .looking  a.active{
+        background-image:linear-gradient(to  bottom, rgb(255, 170, 43), rgb(218, 124, 87));
+        color: #fff;
+    }
+    footer{
+        margin-top: 100px;
+        background-image: linear-gradient(to  right, rgb(121, 145, 223), rgb(138, 55, 177));
+        text-align: center;
+        padding: 60px;
+    }
+    footer h6{
+        color:rgb(216, 83, 150) ;
+    }
+    footer h2{
+        color:rgb(241, 213, 218);
+    }
+    footer p{
+        color:rgb(241, 213, 218);
+        margin-bottom: 0;
+    }
+    footer span{
+        color:rgb(216, 83, 150) ;
+
+    }
